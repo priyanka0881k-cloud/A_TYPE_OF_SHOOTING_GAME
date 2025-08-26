@@ -14,7 +14,7 @@ class Player:
 
         self.model = self.base.loader.loadModel("models/jack")
         self.model.reparentTo(self.player_node)
-        self.model.setShadowCaster(True)
+        # The model will cast shadows automatically.
 
         self.speed = 10
         self.rotation_speed = 90

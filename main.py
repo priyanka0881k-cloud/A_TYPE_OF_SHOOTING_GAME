@@ -28,8 +28,7 @@ class Game(ShowBase):
         dlnp.setHpr(0, -60, 0)
         self.render.setLight(dlnp)
 
-        # Make the scene cast shadows
-        self.scene.setShadowCaster(True)
+        # The scene will cast shadows automatically.
 
         # Enable the shader generator
         self.render.setShaderAuto()
