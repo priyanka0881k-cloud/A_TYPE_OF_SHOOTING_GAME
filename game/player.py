@@ -49,7 +49,7 @@ class Player:
         cam_pos = self.base.camera.getPos(self.base.render)
         start_pos = cam_pos + direction * 2  # Start 2 units in front of the camera
         projectile = Projectile(self.base, start_pos, direction)
-        self.base.projectiles.append(projectile)
+        self.base.projectiles[str(id(projectile))] = projectile
 
 
     def set_key(self, key, value):
