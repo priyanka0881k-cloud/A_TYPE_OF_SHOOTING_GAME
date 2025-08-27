@@ -1,3 +1,4 @@
+# Forcing a file update to try and clear execution cache.
 from direct.showbase.ShowBase import ShowBase
 from panda3d.core import (
     AmbientLight, DirectionalLight, Vec4, TextNode, BitMask32,
