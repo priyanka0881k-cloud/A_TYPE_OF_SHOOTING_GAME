@@ -1,3 +1,4 @@
+# Forcing a file update to try and clear execution cache.
 from direct.showbase.ShowBase import ShowBase
 from panda3d.core import (
     AmbientLight, DirectionalLight, Vec4, TextNode, BitMask32,
@@ -7,9 +8,9 @@ from direct.gui.OnscreenText import OnscreenText
 from game.player import Player
 from game.enemy import Enemy
 
-VERSION = "v0.2.1"
+VERSION = "v0.2.2"
 
-from .constants import PROJECTILE_MASK, ENEMY_MASK
+from game.constants import PROJECTILE_MASK, ENEMY_MASK
 
 class Game(ShowBase):
     def __init__(self):
