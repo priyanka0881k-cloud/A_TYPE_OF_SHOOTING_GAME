@@ -7,7 +7,7 @@ from direct.gui.OnscreenText import OnscreenText
 from game.player import Player
 from game.enemy import Enemy
 
-VERSION = "v0.2.0"
+VERSION = "v0.2.1"
 
 from .constants import PROJECTILE_MASK, ENEMY_MASK
 

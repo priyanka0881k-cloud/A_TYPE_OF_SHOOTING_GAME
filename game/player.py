@@ -41,7 +41,7 @@ class Player:
         # Mouse control setup
         props = WindowProperties()
         props.setCursorHidden(True)
-        props.setMouseMode(WindowProperties.M_RELATIVE)
+        props.setMouseMode(WindowProperties.MM_RELATIVE)
         self.base.win.requestProperties(props)
 
     def shoot(self):
